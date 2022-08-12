@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ahmed/OneDrive/Documents/GitHub/ie-cyber-safety-automation">
+        <classes>
+            <class name="cucumber_test.test_runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
