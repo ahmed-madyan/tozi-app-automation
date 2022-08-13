@@ -1,6 +1,7 @@
 package page_object_model.fe;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.AppiumDriver;
 
 public class NavigationBar {
     private static final AppiumBy cosmos_Button = (AppiumBy) AppiumBy.accessibilityId("Cosmos_Button");
@@ -8,7 +9,6 @@ public class NavigationBar {
     private static final AppiumBy burgerMenu_Button = (AppiumBy) AppiumBy.accessibilityId("Drawer_BurgerIcon");
 
     public void open_Cosmos_Tab() {
-
     }
 
     public void open_MySpace_Tab() {
